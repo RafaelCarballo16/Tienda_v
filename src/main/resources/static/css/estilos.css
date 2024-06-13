@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-header {
+.encabezado {
   position: fixed;
   background-color: #0033cc;
   top: 0;
@@ -13,6 +13,49 @@ header {
   height: 100px;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    }
+    
+.nav-link {
+    color: white;
+    text-decoration: none;
+
+    
+    
+    
+    }
+    
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 100px;
+    
+    
+    
+    
+    
+    }
+    
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 100px;
+   
+    
+    
+    
+    }
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    
+    
+    }
 
 aside {
   position: fixed;
@@ -47,17 +90,17 @@ footer {
   height: 20px;
 }
 
-.a  {
+.nav-menu-link  {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+   
     padding: 5px;
     border-radius: 5px;
  
     }
     
-nav a:hover {
+.nav-menu-link:hover {
   background-color: #000033;
-  font-size: 18px;
-  animation-delay: 1s;
+  
+  transition: 0.5s;
 }
